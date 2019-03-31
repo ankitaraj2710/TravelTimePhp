@@ -1,0 +1,602 @@
+
+
+/*mobile view*/
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+
+/* Containers */
+
+ .container-fluid{
+  padding: 7% 15%;
+    
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: darkcyan;
+  color: #fff;
+}
+
+.white-section {
+  background-color: khaki;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 3rem;
+
+}
+.navbar li a{
+  font-size: 20px;
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 5px;
+
+}
+
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.navbar2{
+
+  margin-left: 10em;}
+
+
+.navbar2 a {
+    font-size: 2em;
+    padding-right: 1em;
+  }
+
+
+/* information section  */
+
+.information {
+  font-style: oblique;
+  font-size: 15px;
+  margin-top: 1em;
+}
+/* slidersection */
+#carouselslider img{
+  height: 40em;
+  width: 100%;
+}
+#carouselslider {
+  display: inline;
+}
+/* services section */
+
+#services .container
+{
+  height: 20em;
+  width: 20em;
+  padding-top: 1em;
+  padding-left: 1em;
+  display: inline-block;
+}
+#services img{
+  display: inline-block;
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.image {
+  /* display: inline-block; */
+  width: 25em;
+  height: 20em;
+  padding: 2em;
+}
+.overlay {
+  position: absolute;
+  bottom: -1em;
+  left: 1.4em;
+  right: 1.3em;
+  background-color: bisque;
+  overflow: hidden;
+  width: 25em;
+  height: 25em;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .9s ease;
+  transition: .9s ease;
+}
+
+.container:hover .overlay {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(1);
+}
+
+.text {
+  color: red;
+  text-decoration: none;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Title Section */
+
+#title {
+  background-color: maroon;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* contact us */
+
+#contactus h1{
+  padding-bottom: 1em;
+}
+.location{
+  margin-top: 2em;
+    text-align: right;
+}
+textarea{
+
+}
+.location p {
+  margin-left: 0em;
+  padding-top: 0.4em;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+
+/* login page */
+#login h1{
+  padding-bottom: 1em;
+}
+#login a {
+
+  color: black;
+}
+
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+
+
+@media only screen and (min-width:710px) {
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+
+/* Containers */
+
+ .container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: crimson;
+  color: bisque;
+}
+
+.white-section {
+  background-color: indianred;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 3rem;
+}
+.navbar li a{
+  font-size: 35px;
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+
+}
+
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.navbar2{
+  margin-left: 15rem;}
+
+
+.navbar2 a {
+    font-size: 2em;
+    padding-right: 2em;
+  }
+
+
+/* information section  */
+
+.information {
+  font-style: oblique;
+  font-size: 20px;
+  margin-top: 1em;
+}
+/* slidersection */
+#carouselslider img{
+  height: 40em;
+  width: 100%;
+}
+#carouselslider {
+  display: inline;
+}
+/* services section */
+
+#services .container
+{
+  height: 20em;
+  width: 20em;
+  padding-top: 2em;
+  padding-left: 1em;
+  display: inline-block;
+}
+#services img{
+  display: inline-block;
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.image {
+  /* display: inline-block; */
+  width: 20em;
+  height: 20em;
+  padding: 2em;
+}
+.overlay {
+  position: absolute;
+  bottom: -1em;
+  left: 1.4em;
+  right: 1.3em;
+  background-color: orange;
+  color: olive;
+  overflow: hidden;
+  width: 18em;
+  height: 18em;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .9s ease;
+  transition: .9s ease;
+}
+
+.container:hover .overlay {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(1);
+}
+
+.text {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Title Section */
+
+#title {
+  background-color: maroon;
+  color: antiquewhite;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* contact us */
+
+#contactus h1{
+  padding-bottom: 2em;
+}
+.location{
+  margin-top: 2em;
+}
+.location p {
+  margin-left: 8em;
+  padding-top: 0.4em;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+
+/* login page */
+#login h1{
+  padding-bottom: 1em;
+}
+#login a {
+
+  color: black;
+}
+
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+}
+
+@media only screen and (min-width:860px) {
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+
+/* Containers */
+
+ .container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: indigo;
+  color: #fff;
+}
+
+.white-section {
+  background-color: palegreen;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 3rem;
+}
+.navbar li a{
+  font-size: 30px;
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+
+}
+
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.navbar2{
+  margin-left: 20em;}
+
+
+.navbar2 a {
+    font-size: 2em;
+    padding-right: 1em;
+  }
+
+
+/* information section  */
+
+.information {
+  font-style: oblique;
+  font-size: 25px;
+  margin-top: 1em;
+}
+/* slidersection */
+#carouselslider img{
+  height: 40em;
+  width: 100%;
+}
+#carouselslider {
+  display: inline;
+}
+/* services section */
+
+#services .container
+{
+  height: 20em;
+  width: 20em;
+  padding-top: 2em;
+  padding-left: 1em;
+  display: inline-block;
+}
+#services img{
+  display: inline-block;
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.image {
+  /* display: inline-block; */
+  width: 20em;
+  height: 20em;
+  padding: 2em;
+}
+.overlay {
+  position: absolute;
+  bottom: -1em;
+  left: 1.4em;
+  right: 1.3em;
+  background-color: orange;
+  overflow: hidden;
+  width: 18em;
+  height: 18em;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .9s ease;
+  transition: .9s ease;
+}
+
+.container:hover .overlay {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(1);
+}
+
+.text {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Title Section */
+
+#title {
+  background-color: sienna;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* contact us */
+
+#contactus h1{
+  padding-bottom: 1em;
+}
+.location{
+  margin-top: 2em;
+}
+.location p {
+  margin-left: 19em;
+  padding-top: 0.4em;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+
+/* login page */
+#login h1{
+  padding-bottom: 1em;
+}
+#login a {
+
+  color: black;
+}
+
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+}
